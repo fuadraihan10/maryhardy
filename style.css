@@ -1,0 +1,91 @@
+/* -----------importing fonts---------- */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Signika+Negative:wght@300..700&display=swap');
+/* --------------ovarall_styles------------- */
+*{
+    padding: 0%;
+    margin:0%;
+}
+.font{
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+/* ------------shared_style----------- */
+span{
+    color: #FD6E0A;
+}
+.dark-2{
+    color: #474747;
+}
+.btn{
+    border-radius: 5px;
+    background-color: #FD6E0A;
+    padding: 10px 30px;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+/* --------------header----------------- */
+header{
+    background-image: url("images/developer.png"),url("images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+/* ----nav---- */
+header nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:50px 200px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+.nav-title{
+    font-size: 45px;
+    font-weight: 700;
+}
+/* ---banner--- */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+}
+.text-content{
+    max-width: 580PX;
+}
+.banner-greeting{
+    font-size: 45px;
+    font-weight: 600;
+    margin-top:140px;
+    margin-bottom: 10px;
+}
+.banner-title{
+    font-weight: bold;
+    font-size: 85px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+.banner-description{
+    margin-bottom: 10px;
+}
+.banner-pic{
+    width:580px;
+}
+
+
