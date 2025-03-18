@@ -45,6 +45,9 @@ span{
     font-size: 18px;
     margin-bottom: 25px;
 }
+.what-i-do, .resume {
+    margin-bottom: 100px;
+}
 
 
 /* --------------header----------------- */
@@ -139,4 +142,43 @@ nav ul li a{
 
 .skill-description {
     color: #757575;
+}
+/*------------- resume section styles--------- */
+.resume{
+    margin:100px;
+}
+.resume-container {
+    display: flex;
+    gap: 30px;
+}
+.resume-column-title {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.resume-item-title {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.resume-item-institute {
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+
+.resume-item-institute,
+.resume-item-description {
+    color: #757575;
+}
+
+.resume-container hr {
+    margin: 30px 0;
+}
+
+.download-cv {
+    text-align: center;
+    margin-top: 50px;
 }
