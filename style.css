@@ -124,6 +124,9 @@ nav ul li a{
 }
 
 /* ------------what i do------------- */
+.what-i-do{
+    margin:100px;
+}
 .what-i-do-description {
     padding: 0 150px 30px 150px;
 }
@@ -181,4 +184,32 @@ nav ul li a{
 .download-cv {
     text-align: center;
     margin-top: 50px;
+}
+/* -------------footer----------- */
+footer {
+    background-color: #FFF8F3;
+    padding: 100px 100px;
+}
+.footer-content {
+    display: flex;
+    gap: 30px;
+}
+.footer-item {
+    width: 50%;
+}
+.left {
+    text-align: left;
+}
+.social-links a{
+    margin-right: 25px;
+}
+.contact input[type="text"], .contact input[type="email"], textarea {
+    display: inline-block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    background: #FFF;
+    border: 0;
+    width: 75%;
 }
