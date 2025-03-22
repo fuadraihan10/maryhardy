@@ -61,7 +61,8 @@ header nav{
     display:flex;
     align-items: center;
     justify-content: space-between;
-    margin:50px 200px;
+    margin:5vw 14vw;
+    gap:2vw;
 }
 nav ul{
     display: flex;
@@ -69,11 +70,11 @@ nav ul{
 }
 nav ul li{
     list-style: none;
-    margin-right: 50px;
+    margin-right: 3vw;
 }
 nav ul li a{
     text-decoration: none;
-    font-size: 20px;
+    font-size: 1.5rem;
 }
 .nav-title{
     font-size: 45px;
@@ -83,15 +84,15 @@ nav ul li a{
 .banner{
     display: flex;
     justify-content: space-between;
-    margin: 0 35px 0 200px;
+    margin: 0 4vw 0 20vw;
 }
 .text-content{
-    max-width: 580PX;
+    max-width: 580px;
 }
 .banner-greeting{
     font-size: 45px;
     font-weight: 600;
-    margin-top:140px;
+    margin-top:14vw;
     margin-bottom: 10px;
 }
 .banner-title{
@@ -109,10 +110,10 @@ nav ul li a{
 /* -----------------------body--------------------------- */
 /* ---------about_mee----------- */
 .about {
-    padding: 130px;
+    padding: 15vh;
     border-radius: 10px;
     background: #FFF8F3;
-    margin: 100px 130px;
+    margin: 100px 5vh;
 }
 .about-info-container {
     display: flex;
@@ -125,10 +126,14 @@ nav ul li a{
 
 /* ------------what i do------------- */
 .what-i-do{
-    margin:100px;
+    margin:5vw;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
 }
 .what-i-do-description {
-    padding: 0 150px 30px 150px;
+    padding: 0 5vw 30px 5vw;
 }
 
 .skills-container {
@@ -148,7 +153,7 @@ nav ul li a{
 }
 /*------------- resume section styles--------- */
 .resume{
-    margin:100px;
+    margin:5vw;
 }
 .resume-container {
     display: flex;
@@ -188,7 +193,7 @@ nav ul li a{
 /* -------------footer----------- */
 footer {
     background-color: #FFF8F3;
-    padding: 100px 100px;
+    padding: 5vw;
 }
 .footer-content {
     display: flex;
@@ -212,4 +217,36 @@ footer {
     background: #FFF;
     border: 0;
     width: 75%;
+}
+
+/* /--------responsive---------/ */
+.h{
+    display:none;
+}
+@media screen and (max-width:576px){
+    .skills-container,.resume-container,.footer-content,.banner{
+        flex-direction: column;
+    }
+    header nav{
+        margin:5vw 5vw;
+    }
+    .about{
+        padding: 5vh;
+    }
+    .banner-pic{
+        width: 100%;
+    }
+    .about-info-container{
+        flex-direction: column;
+        gap: 1em;
+    }
+    .footer-content{
+        align-items: center;
+
+    }
+    .footer-item{
+        margin: 5vw 0px;
+        width: 100%;
+    }
+
 }
