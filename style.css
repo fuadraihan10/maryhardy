@@ -23,11 +23,11 @@ span{
 .btn{
     border-radius: 5px;
     background-color: #FD6E0A;
-    padding: 10px 30px;
+    padding: 1vw 3vw;
     cursor: pointer;
     outline: none;
     border: 0;
-    font-size: 20px;
+    font-size: 1.5rem;
     color: rgb(255, 255, 255);
     font-weight: bold;
 }
@@ -67,10 +67,10 @@ header nav{
 nav ul{
     display: flex;
     align-items: center;
+    gap:3vw;
 }
 nav ul li{
     list-style: none;
-    margin-right: 3vw;
 }
 nav ul li a{
     text-decoration: none;
@@ -228,7 +228,21 @@ footer {
         flex-direction: column;
     }
     header nav{
-        margin:5vw 5vw;
+        margin:5vw 2vw;
+        gap:1px;
+    }
+    nav ul{
+        gap:2vw;
+    }
+    .btn{
+        margin-bottom: 1vw;
+    }
+    .nav-btn{
+        padding: 1vw;
+        font-size: 1.3rem;
+    }
+    nav ul li a{
+        font-size: 1.3rem;
     }
     .about{
         padding: 5vh;
